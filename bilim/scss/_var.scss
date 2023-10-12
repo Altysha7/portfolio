@@ -1,0 +1,30 @@
+// colors
+$bgColor: #ECF9FF;
+$spanColor: #00E5CC; 
+$primaryColor: #060640;
+$mainColor: #FBFEFF;
+$navColor: #828297;
+$blackColor: #000; 
+$whiteColor: #fff;
+$paragraphColor: #9090A7;
+$secondaryColor: #00E5CC;
+// font-size
+$textFontSize: 14px;
+
+
+@mixin flex($direction: row, $ai: center, $jc: center, $wrap: no-wrap, $gap: 0px){
+    display: flex;
+    flex-direction: $direction;
+    align-items: $ai;
+    justify-content: $jc;
+    flex-wrap: $wrap;
+    gap: $gap;
+}
+
+a {
+    text-decoration: none;
+}
+button, input {
+    border: none;
+    outline: none;
+}
