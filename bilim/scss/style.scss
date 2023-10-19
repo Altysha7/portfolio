@@ -163,6 +163,12 @@ button, i {
                     padding: 0;
                     width: auto;
                     height: 100px;
+                    cursor: pointer;
+                    transition: all .3s ease-in;
+                    &:hover {
+                        transform: scale(1.1);
+                    }
+                    
                 }
             }
             .text__box {
@@ -886,6 +892,7 @@ button, i {
 }
 // footer
 .footer {
+    font-family: 'Poppins', sans-serif;
     background-color: $primaryColor;
     .footer__page {
         @include flex($direction: column, $ai: space-between, $jc: space-between, $gap: 0px);
@@ -898,6 +905,7 @@ button, i {
                     color: #FFF;
                     font-style: normal;
                     font-size: 50px;
+                    font-weight: 700;
                 }
                 .footer__text {
                     margin: 15px 0 15px 0;
