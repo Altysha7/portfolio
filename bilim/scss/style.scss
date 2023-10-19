@@ -807,12 +807,38 @@ button, i {
         .promotion__box {
             position: relative;
             margin: 10px 0 60px;
+            padding: 3px;
+            .plane1 {
+                position: absolute;
+                right: 31%;
+                top: 2%;
+            }
+            .plane2 {
+                position: absolute;
+                right: 25%;
+                top: 45%;
+            }
+            .plane3 {
+                position: absolute;
+                right: 43%;
+                top: 46%;
+            }
+            .plane4 {
+                position: absolute;
+                right: 52%;
+                top: 42%;
+            }
+            .plane5 {
+                position: absolute;
+                top: 3%;
+                left: 33%;
+            }
             img {
                 object-fit: contain;
             }
             .plane {
                 position: absolute;
-                top: 30%;
+                top: 33%;
                 left: 48%;
                 color: white;
                 padding: 10px 12px;
@@ -904,7 +930,7 @@ button, i {
                 .footer__heading {
                     color: #FFF;
                     font-style: normal;
-                    font-size: 50px;
+                    font-size: 42px;
                     font-weight: 700;
                 }
                 .footer__text {

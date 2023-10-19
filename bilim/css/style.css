@@ -1040,13 +1040,39 @@ button, i {
 .promotion .promotion__page .promotion__box {
   position: relative;
   margin: 10px 0 60px;
+  padding: 3px;
+}
+.promotion .promotion__page .promotion__box .plane1 {
+  position: absolute;
+  right: 31%;
+  top: 2%;
+}
+.promotion .promotion__page .promotion__box .plane2 {
+  position: absolute;
+  right: 25%;
+  top: 45%;
+}
+.promotion .promotion__page .promotion__box .plane3 {
+  position: absolute;
+  right: 43%;
+  top: 46%;
+}
+.promotion .promotion__page .promotion__box .plane4 {
+  position: absolute;
+  right: 52%;
+  top: 42%;
+}
+.promotion .promotion__page .promotion__box .plane5 {
+  position: absolute;
+  top: 3%;
+  left: 33%;
 }
 .promotion .promotion__page .promotion__box img {
   object-fit: contain;
 }
 .promotion .promotion__page .promotion__box .plane {
   position: absolute;
-  top: 30%;
+  top: 33%;
   left: 48%;
   color: white;
   padding: 10px 12px;
@@ -1151,7 +1177,7 @@ button, i {
 .footer .footer__page .footer__top .footer__left .footer__heading {
   color: #FFF;
   font-style: normal;
-  font-size: 50px;
+  font-size: 42px;
   font-weight: 700;
 }
 .footer .footer__page .footer__top .footer__left .footer__text {
