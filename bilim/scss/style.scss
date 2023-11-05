@@ -8,6 +8,9 @@
     scroll-behavior: smooth;
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
+    width: 100vw;
+    min-height: 100vh;
+    overflow-x: hidden;
 }
 
 h2, h3 {
@@ -22,11 +25,6 @@ body {
     background-color: #ECF9FF;
 }
 
-.home, .about, .services {
-    overflow-x: hidden;
-    width: 100vw;
-    height: auto;
-}
 
 .logo__span {
     color: $secondaryColor;
